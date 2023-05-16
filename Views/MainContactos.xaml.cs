@@ -116,10 +116,14 @@ public partial class MainContactos : ContentPage
         if (_listaDeContactos.Count != Funciones.ListaDeFavoritos().Count)
         {
             _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeFavoritos());
+            btnFavoritos.BackgroundColor = Color.FromRgb(103, 146, 210);
+            btnFavoritos.BorderColor = Color.FromRgb(153, 196, 210);
         }
         else
         {
             _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeContactosExistentes());
+            btnFavoritos.BackgroundColor = Color.FromRgb(72, 61, 139);
+            btnFavoritos.BorderColor = Color.FromRgb(72, 61, 139);
         }
         CollectionViewContactos.ItemsSource = _listaDeContactos;
     }
