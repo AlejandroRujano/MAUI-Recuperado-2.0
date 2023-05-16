@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prueba_Maui.Views.MainContactos"
+             xmlns:model="clr-namespace:Prueba_Maui.Clases"
+             Title="Contactos"
+             BackgroundColor="White"
+             Shell.NavBarIsVisible="False"
+             >
+    <FlexLayout Direction="Column">
+        <Grid ColumnDefinitions="*" RowDefinitions="auto,auto,*,auto">
+            <Border BackgroundColor="DarkSlateBlue" Margin="2" Padding="1" Stroke="#E3EBF4" HeightRequest="65" Grid.Row="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="40,40,40,40">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                <Border BackgroundColor="White" Padding="0" Margin="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="40,40,40,40">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <Grid ColumnDefinitions="*,auto" RowDefinitions="*" ColumnSpacing="12" Padding="24">
+                        <Entry
+                            x:Name="entryBusqueda"
+                            BackgroundColor="White" 
+                            HeightRequest="40" 
+                            Placeholder="Buscar Contacto"
+                            Grid.Column="0"
+                            TextColor="Black"
+                            TextChanged="entryBusqueda_TextChanged" 
+                            >
+                        </Entry>
+                        <Image 
+                            Source="lupa2.png"
+                            HeightRequest="25"
+                            WidthRequest="25"
+                            Aspect="AspectFill"
+                            Grid.Column="1"
+                            >
+                        </Image>
+                    </Grid>
+                </Border>
+            </Border>
+            <Grid ColumnDefinitions="*,*" RowDefinitions="*" HeightRequest="60" ColumnSpacing="12" Padding="10" Grid.Row="1">
+                <Button Grid.Column="0" BackgroundColor="#512BD4" TextColor="White" Text="Organizar Por" FontSize="10"></Button>
+                <Button Grid.Column="1" BackgroundColor="#512BD4" TextColor="White" Text="Organizar Por" FontSize="10"></Button>
+            </Grid>
+            <CollectionView x:Name="CollectionViewContactos" x:DataType="model:Contacto" Grid.Row="2" SelectionMode="Single" SelectionChanged="CollectionViewContactos_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="auto,auto,auto,auto" RowDefinitions="*" Padding="4" Margin="20,15,20,15">
+                            <Image Source="{Binding PathImagen}" Grid.Column="0" HeightRequest="35" WidthRequest="35" Margin="0,0,12,0" VerticalOptions="Center"></Image>
+                            <Label Text="{Binding Nombre}" Grid.Column="1" Grid.Row="0" FontSize="16" Padding="3" TextColor="Black" VerticalOptions="Center"></Label>
+                            <Label Text="{Binding Apellido}" Grid.Column="2" Grid.Row="0" FontSize="16" Padding="3" TextColor="Black" VerticalOptions="Center"></Label>
+                            <Label Text="{Binding Apodo}" Grid.Column="3" Grid.Row="0" FontSize="16" Padding="3" TextColor="DarkSlateBlue" VerticalOptions="Center"></Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        <HorizontalStackLayout Margin="8" HorizontalOptions="End" Spacing="12" VerticalOptions="End">
+            <Button 
+                Padding="10,5,10,15"
+                x:Name="btnAgregarContacto"
+                Text="+"
+                FontAttributes="Bold"
+                FontSize="32"
+                BorderColor="DarkSlateBlue" 
+                BorderWidth="3"
+                CornerRadius="20"
+                BackgroundColor="DarkSlateBlue" 
+                TextColor="White"
+                HeightRequest="65"
+                WidthRequest="65"
+                Clicked="btnAgregarContacto_Clicked"
+                >
+        </Button>
+        <Button
+            Padding="10,10,10,15"
+            x:Name="btnFavoritos"
+            Text="★"
+            FontAttributes="Bold"
+            FontSize="25"
+            BorderColor="DarkSlateBlue" 
+            BorderWidth="3"
+            CornerRadius="20"
+            BackgroundColor="DarkSlateBlue" 
+            TextColor="White"
+            HeightRequest="65"
+            WidthRequest="65"
+                >
+        </Button>
+        </HorizontalStackLayout>
+    </FlexLayout>
+</ContentPage>

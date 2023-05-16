@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prueba_Maui.Views.AgregarEditarContacto"
+             Title="Editar"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White"
+             >
+    <VerticalStackLayout>
+        <Button
+            Padding="10,-25,14,-10"
+            x:Name="btnRegresar"
+            Clicked="btnRegresar_Clicked"
+            Text="←"
+            FontAttributes="Bold"
+            FontSize="30"
+            BorderColor="DarkSlateBlue" 
+            BorderWidth="3"
+            CornerRadius="40"
+            BackgroundColor="DarkSlateBlue" 
+            TextColor="White"
+            HeightRequest="35"
+            WidthRequest="70"
+            HorizontalOptions="Start"
+            Margin="10,10,0,0"
+            >
+        </Button>
+        <Image 
+            Margin="30,10,30,10"   
+            Source="contacto.png"
+            HeightRequest="150"
+            WidthRequest="150"
+            Aspect="AspectFill"
+         >
+        </Image>
+        <Label
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            TextColor="Black"
+            Text="Nombre de contacto"
+            FontSize="20"
+            x:Name="lblNombreCompleto"
+            >
+        </Label>
+        <Grid ColumnDefinitions="50,*" RowDefinitions="auto,auto,auto,auto,auto,auto" RowSpacing="10" Margin="10,20,10,10">
+            <Image 
+                Source="silueta.png"
+                HeightRequest="30"
+                WidthRequest="30"
+                Aspect="AspectFill"
+                Grid.Column="0"
+             >
+            </Image>
+            <Image 
+                Source="telefono.png"
+                HeightRequest="30"
+                WidthRequest="30"
+                Aspect="AspectFill"
+                Grid.Column="0"
+                Grid.Row="3"
+             >
+            </Image>
+            <Image 
+                Source="sobre.png"
+                HeightRequest="30"
+                WidthRequest="30"
+                Aspect="AspectFill"
+                Grid.Column="0"
+                Grid.Row="4"
+             >
+            </Image>
+            <Border Grid.Column="1" BackgroundColor="DarkSlateBlue" Padding="0" Stroke="#E3EBF4" HeightRequest="65" Grid.Row="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                <Border BackgroundColor="White" Padding="0" Margin="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry 
+                        Margin="20,10,50,10"
+                        BackgroundColor="White" 
+                        HeightRequest="40" 
+                        Placeholder="Nombre"
+                        x:Name="entryNombre"
+                        TextColor="Black"
+                            >
+                    </Entry>
+                </Border>
+            </Border>
+            <Border Grid.Column="1" BackgroundColor="DarkSlateBlue" Padding="0" Stroke="#E3EBF4" HeightRequest="65" Grid.Row="1">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                <Border BackgroundColor="White" Padding="0" Margin="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <Grid RowDefinitions="*" ColumnSpacing="12" Padding="24" >
+                        <Entry
+                            BackgroundColor="White" 
+                            HeightRequest="40" 
+                            Placeholder="Apellido"
+                            x:Name="entryApellido"
+                            TextColor="Black"
+                            >
+                        </Entry>
+                    </Grid>
+                </Border>
+            </Border>
+            <Border Grid.Column="1" BackgroundColor="DarkSlateBlue" Padding="0" Stroke="#E3EBF4" HeightRequest="65" Grid.Row="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                <Border BackgroundColor="White" Padding="0" Margin="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <Grid RowDefinitions="*" ColumnSpacing="12" Padding="24">
+                        <Entry
+                            BackgroundColor="White" 
+                            HeightRequest="40" 
+                            Placeholder="Apodo"
+                            x:Name="entryApodo"
+                            TextColor="Black"
+                            >
+                        </Entry>
+                    </Grid>
+                </Border>
+            </Border>
+            <Border Grid.Column="1" BackgroundColor="DarkSlateBlue" Padding="0" Stroke="#E3EBF4" HeightRequest="65" Grid.Row="3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                <Border BackgroundColor="White" Padding="0" Margin="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry 
+                        Margin="20,10,50,10"
+                        BackgroundColor="White" 
+                        HeightRequest="40" 
+                        Placeholder="Numero de Telefono"
+                        x:Name="entryTelefono"
+                        TextColor="Black"
+                        >
+                    </Entry>
+                </Border>
+            </Border>
+            <Border Grid.Column="1" BackgroundColor="DarkSlateBlue" Padding="0" Stroke="#E3EBF4" HeightRequest="65" Grid.Row="4">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20">
+                    </RoundRectangle>
+                </Border.StrokeShape>
+                <Border BackgroundColor="White" Padding="0" Margin="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20">
+                        </RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry 
+                        Margin="20,10,50,10"
+                        BackgroundColor="White" 
+                        HeightRequest="40" 
+                        Placeholder="Correo"
+                        x:Name="entryCorreo"
+                        TextColor="Black"
+                        >
+                    </Entry>
+                </Border>
+            </Border>
+            <Button
+                Grid.Column="0"
+                Grid.Row="5"
+                Text="Guardar"
+                Grid.ColumnSpan="2"
+                FontAttributes="Bold"
+                FontSize="12"
+                BorderColor="DarkSlateBlue" 
+                BorderWidth="3"
+                CornerRadius="20"
+                BackgroundColor="DarkSlateBlue" 
+                TextColor="White"
+                HeightRequest="55"
+                WidthRequest="95"
+                Margin="10"
+                >
+            </Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
