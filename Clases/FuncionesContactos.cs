@@ -34,16 +34,16 @@ namespace Prueba_Maui.Clases
             }
             catch { };
 
-            _listaDeContactosOriginal.Clear();
+            //_listaDeContactosOriginal.Clear();
             //Al primer contacto se le debe pasar como parametro un string vacio
-            _listaDeContactosOriginal.Add(new Contacto("Luis","Galindez","Editor","a@gmail.com",24456,_listaDeContactosOriginal.Count+1,""));
+            _listaDeContactosOriginal.Add(new Contacto("Luis","Galindez","Editor","a@gmail.com","042425836912",_listaDeContactosOriginal.Count+1,""));
 
-            for(int i=0; i<5 ; i++)
+            /*for(int i=0; i<5 ; i++)
             {
                 _listaDeContactosOriginal.Add(new Contacto("Chupa", "Paletas", "ApodoXd", "b@gmail.com", 36656, _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
                 _listaDeContactosOriginal.Add(new Contacto("Super", "Man", "SuperMan", "c@gmail.com", 75862, _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
                 _listaDeContactosOriginal.Add(new Contacto("Luis", "Galindez", "Editor", "a@gmail.com", 24456, _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
-            }   
+            }  */ 
         }
 
         //Funciones Normales
@@ -73,6 +73,26 @@ namespace Prueba_Maui.Clases
             _contactoBuscado = _listaDeContactosOriginal.First(Contacto => Contacto.Id == id);
 
             return _contactoBuscado;
+        }
+        public static void EditarContacto(int id, Contacto contacto)
+        {
+            if (id != contacto.Id) return;
+
+            //var ContactoEditado = _listaDeContactosOriginal.FirstOrDefault(Contacto => Contacto.Id == id);
+
+            if (contacto != null)
+            {
+                //Posicion del Contacto a Editar
+                int _posicion = _listaDeContactosOriginal.FindIndex(contacto => contacto.Id == id);
+
+                _listaDeContactosOriginal[_posicion].Nombre = contacto.Nombre;
+                _listaDeContactosOriginal[_posicion].Apellido = contacto.Apellido;
+                _listaDeContactosOriginal[_posicion].Apodo = contacto.Apodo;
+                _listaDeContactosOriginal[_posicion].Correo = contacto.Correo;
+                _listaDeContactosOriginal[_posicion].NumeroTelefonico = contacto.NumeroTelefonico;
+
+                //GuardarJsonContactos();
+            }
         }
     }
 }

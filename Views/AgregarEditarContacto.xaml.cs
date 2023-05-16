@@ -38,4 +38,36 @@ public partial class AgregarEditarContacto : ContentPage
 		Funciones.BtnPresionado = false;
         Shell.Current.GoToAsync("..");
     }
+
+    private void btnGuardar_Clicked(object sender, EventArgs e)
+    {
+        _contacto.Nombre = entryNombre.Text.Trim();
+        _contacto.Apellido = entryApellido.Text.Trim();
+        _contacto.Apodo = entryApodo.Text.Trim();
+        _contacto.NumeroTelefonico = entryTelefono.Text.Trim();
+        _contacto.Correo = entryCorreo.Text.Trim();
+
+        if (_contacto.Id != -1)
+		{
+            Funciones.EditarContacto(_contacto.Id, _contacto);
+        }
+		else
+		{
+			if(Funciones.ListaOriginal.Count == 0)
+			{
+				_contacto.Id = 1;
+				_contacto.PathImagen = _contacto.EscogerTonoImagen("");
+            }
+			else
+			{
+                _contacto.Id = Funciones.ListaOriginal.Count + 1;
+				_contacto.PathImagen = _contacto.EscogerTonoImagen(Funciones.ListaOriginal[Funciones.ListaOriginal.Count - 1].PathImagen);
+            }
+			Funciones.ListaOriginal.Add(_contacto);
+			//Funciones.GuardarJsonContactos();
+		}
+
+		Funciones.BtnPresionado = false;
+        Shell.Current.GoToAsync("..");
+    }
 }

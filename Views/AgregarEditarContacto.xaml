@@ -197,6 +197,7 @@
                 </Border>
             </Border>
             <Button
+                x:Name="btnGuardar"
                 Grid.Column="0"
                 Grid.Row="5"
                 Text="Guardar"
@@ -211,6 +212,7 @@
                 HeightRequest="55"
                 WidthRequest="95"
                 Margin="10"
+                Clicked="btnGuardar_Clicked"
                 >
             </Button>
         </Grid>
