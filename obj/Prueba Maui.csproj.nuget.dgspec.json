@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fran\\Source\\Repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj": {}
+    "C:\\Users\\Fran\\source\\repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fran\\Source\\Repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj": {
+    "C:\\Users\\Fran\\source\\repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fran\\Source\\Repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj",
+        "projectUniqueName": "C:\\Users\\Fran\\source\\repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj",
         "projectName": "Prueba Maui",
-        "projectPath": "C:\\Users\\Fran\\Source\\Repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj",
+        "projectPath": "C:\\Users\\Fran\\source\\repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj",
         "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fran\\Source\\Repos\\MAUI-Recuperado-2.0\\obj\\",
+        "outputPath": "C:\\Users\\Fran\\source\\repos\\MAUI-Recuperado-2.0\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

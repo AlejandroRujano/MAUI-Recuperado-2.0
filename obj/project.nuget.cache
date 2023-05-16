@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wmGz5lHAxjtnDm4CY31OIjeXcCzYoZ6zI8aQEigEVVaIDty+3KC0SNM2ofJuFsGltJhnGRZ9j4OmI4Au9Avzbg==",
+  "dgSpecHash": "m4V4jwx62uIBMVFEDJkmmViSU7BAs56lsibPIRwuckt6qrbfC/3PfAR5eFZ2+M89ZyqMzz7GDP53jQvW3hikpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fran\\Source\\Repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj",
+  "projectFilePath": "C:\\Users\\Fran\\source\\repos\\MAUI-Recuperado-2.0\\Prueba Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fran\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
