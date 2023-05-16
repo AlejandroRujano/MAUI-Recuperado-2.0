@@ -48,19 +48,19 @@
             <CollectionView x:Name="CollectionViewContactos" x:DataType="model:Contacto" Grid.Row="2" SelectionMode="Single" SelectionChanged="CollectionViewContactos_SelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <SwipeView Threshold="100" x:Name="SwipeListaContactos" SwipeStarted="SwipeListaContactos_SwipeStarted" SwipeEnded="SwipeListaContactos_SwipeEnded">
+                        <SwipeView Threshold="80" x:Name="SwipeListaContactos" SwipeStarted="SwipeListaContactos_SwipeStarted" SwipeEnded="SwipeListaContactos_SwipeEnded">
                             <SwipeView.LeftItems>
                                 <SwipeItems SwipeBehaviorOnInvoked="Close">
                                     <SwipeItem 
                                         Text="Eliminar"
-                                        IconImageSource="dotnet_bot.svg"
+                                        IconImageSource="eliminar.png"
                                         BackgroundColor="Tomato"
                                         Command="{Binding Eliminar}"
                                         Invoked="SwipeItemEliminar_Invoked"
                                         />
                                     <SwipeItem 
                                         Text="Eliminar"
-                                        IconImageSource="dotnet_bot.svg"
+                                        IconImageSource="eliminar.png"
                                         BackgroundColor="Tomato"
                                         />
                                 </SwipeItems>
@@ -69,8 +69,8 @@
                                 <SwipeItems Mode="Execute">
                                     <SwipeItem 
                                         Text="Favorito"
-                                        IconImageSource="dotnet_bot.svg"
-                                        BackgroundColor="Gold"
+                                        IconImageSource="favoritos.png"
+                                        BackgroundColor="#4696e7"
                                         Command="{Binding MarcarComoFavorito}"
                                         />
                                 </SwipeItems>
