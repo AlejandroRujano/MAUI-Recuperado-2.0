@@ -62,8 +62,6 @@
                                         Text="Eliminar"
                                         IconImageSource="dotnet_bot.svg"
                                         BackgroundColor="Tomato"
-                                        Command="{Binding Source={x:Reference collectionView}, Path=BindingContext.DeleteCommand}"
-                                        CommandParameter="{Binding}" 
                                         />
                                 </SwipeItems>
                             </SwipeView.LeftItems>
