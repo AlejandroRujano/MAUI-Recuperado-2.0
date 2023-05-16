@@ -34,16 +34,40 @@ public partial class MainContactos : ContentPage
     }
     private void CollectionViewContactos_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-		if(CollectionViewContactos.SelectedItem != null && Funciones.BtnPresionado == false)
+		if(CollectionViewContactos.SelectedItem != null && Funciones.BtnPresionado == false && Funciones.SwipeLista == false)
 		{
             Funciones.BtnPresionado = true;
             Shell.Current.GoToAsync($"{nameof(AgregarEditarContacto)}?Id={((Contacto)CollectionViewContactos.SelectedItem).Id}");
         }
         CollectionViewContactos.SelectedItem = null;
     }
-
     private void entryBusqueda_TextChanged(object sender, TextChangedEventArgs e)
     {
 
+    }
+    private void SwipeListaContactos_SwipeStarted(object sender, SwipeStartedEventArgs e)
+    {
+        Funciones.SwipeLista = true;
+    }
+    private void SwipeListaContactos_SwipeEnded(object sender, SwipeEndedEventArgs e)
+    {
+        Funciones.SwipeLista = false;
+    }
+    private void SwipeItemEliminar_Invoked(object sender, EventArgs e)
+    {
+        _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeContactosExistentes());
+        CollectionViewContactos.ItemsSource = _listaDeContactos;
+    }
+    private void btnFavoritos_Clicked(object sender, EventArgs e)
+    {
+        if (_listaDeContactos.Count != Funciones.ListaDeFavoritos().Count)
+        {
+            _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeFavoritos());
+        }
+        else
+        {
+            _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeContactosExistentes());
+        }
+        CollectionViewContactos.ItemsSource = _listaDeContactos;
     }
 }
