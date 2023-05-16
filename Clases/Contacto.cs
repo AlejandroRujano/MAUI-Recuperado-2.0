@@ -16,7 +16,7 @@ namespace Prueba_Maui.Clases
         private string _apodo;
         private string _correo;
         private string _pathImagen;
-        private long _numeroTelefonico;
+        private string _numeroTelefonico;
         private bool _eliminado;
         private bool _favorito;
 
@@ -28,14 +28,14 @@ namespace Prueba_Maui.Clases
             _apellido = "Sin Apellido";
             _apodo = "Sin Apodo";
             _correo = "NoEsUnCorreo@gmail.com";
-            _numeroTelefonico = 0;
+            _numeroTelefonico = "";
             _pathImagen = "";
             _eliminado = false;
             _favorito = false;
         }
 
         //Constructor Parametrico
-        public Contacto(string nombre, string apellido, string apodo, string correo, long numeroTelefonico, int id, string UltimoTonoImagen)
+        public Contacto(string nombre, string apellido, string apodo, string correo, string numeroTelefonico, int id, string UltimoTonoImagen)
         {
             _id = id;
             _nombre = nombre;
@@ -75,13 +75,13 @@ namespace Prueba_Maui.Clases
         public string Apodo { get { return _apodo; } set { _apodo = value; } }
         public string PathImagen { get { return _pathImagen; } set { _pathImagen = value; } }
         public string Correo { get { return _correo; } set { _correo = value; } }
-        public long NumeroTelefonico { get { return _numeroTelefonico; } set { _numeroTelefonico = value; } }
+        public string NumeroTelefonico { get { return _numeroTelefonico; } set { _numeroTelefonico = value; } }
         public bool Eliminado { get { return _eliminado; } set { _eliminado = value; } }
         public bool Favorito { get { return _favorito; } set { _favorito = value; } }
         public ICommand Eliminar { private set; get; }
         public ICommand MarcarComoFavorito { private set; get; }
         public event PropertyChangedEventHandler PropertyChanged;
-        private string EscogerTonoImagen(string UltimoTono)
+        public string EscogerTonoImagen(string UltimoTono)
         {
             List<string> Colores = Funciones.ColoresIconosContactos;
 
