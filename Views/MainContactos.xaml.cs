@@ -8,6 +8,7 @@ public partial class MainContactos : ContentPage
 {
 	//private List<Contacto> _listaDeContactos = new List<Contacto>();
     private ObservableCollection<Contacto> _listaDeContactos;
+    private bool _favoritos = false;
     private bool _ordenarNombreContacto = true;
     private bool _ordenarNumeroContacto = true;
     private string _ultimaFormaDeOrdenado = "";
@@ -113,17 +114,19 @@ public partial class MainContactos : ContentPage
     {
         _ultimaFormaDeOrdenado = "";
 
-        if (_listaDeContactos.Count != Funciones.ListaDeFavoritos().Count)
+        if (_favoritos == false)
         {
             _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeFavoritos());
             btnFavoritos.BackgroundColor = Color.FromRgb(103, 146, 210);
             btnFavoritos.BorderColor = Color.FromRgb(153, 196, 210);
+            _favoritos = true;
         }
         else
         {
             _listaDeContactos = new ObservableCollection<Contacto>(Funciones.ListaDeContactosExistentes());
             btnFavoritos.BackgroundColor = Color.FromRgb(72, 61, 139);
             btnFavoritos.BorderColor = Color.FromRgb(72, 61, 139);
+            _favoritos = false;
         }
         CollectionViewContactos.ItemsSource = _listaDeContactos;
     }
