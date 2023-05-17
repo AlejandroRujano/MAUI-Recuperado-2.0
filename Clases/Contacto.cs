@@ -27,11 +27,31 @@ namespace Prueba_Maui.Clases
             _nombre = "Sin Nombre";
             _apellido = "Sin Apellido";
             _apodo = "Sin Apodo";
-            _correo = "NoEsUnCorreo@gmail.com";
+            _correo = "Sin Correo";
             _numeroTelefonico = "";
             _pathImagen = "";
             _eliminado = false;
             _favorito = false;
+
+            //Comando para poder Eliminarlo desde el Main
+
+            Eliminar = new Command(
+                execute: () =>
+                {
+                    _eliminado = true;
+                });
+            MarcarComoFavorito = new Command(
+                execute: () =>
+                {
+                    if (_favorito == false)
+                    {
+                        _favorito = true;
+                    }
+                    else if (_favorito == true)
+                    {
+                        _favorito = false;
+                    }
+                });
         }
 
         //Constructor Parametrico
@@ -80,6 +100,7 @@ namespace Prueba_Maui.Clases
         public bool Favorito { get { return _favorito; } set { _favorito = value; } }
         public ICommand Eliminar { private set; get; }
         public ICommand MarcarComoFavorito { private set; get; }
+
         public event PropertyChangedEventHandler PropertyChanged;
         public string EscogerTonoImagen(string UltimoTono)
         {

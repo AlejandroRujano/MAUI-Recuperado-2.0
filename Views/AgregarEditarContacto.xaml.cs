@@ -6,13 +6,40 @@ namespace Prueba_Maui.Views;
 [QueryProperty(nameof(ContactoId),"Id")]
 public partial class AgregarEditarContacto : ContentPage
 {
+    private bool _favorito = false;
 	private Contacto _contacto = new Contacto();
 	public AgregarEditarContacto()
 	{
 		InitializeComponent();
 	}
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
 
-	public string ContactoId
+        if (_contacto.Id != -1)
+        {
+            btnEliminar.IsVisible = true;
+            btnEstrella.IsVisible = true;
+        }
+        else
+        {
+            btnEliminar.IsVisible = false;
+            btnEstrella.IsVisible = false;
+        }
+        if (_contacto.Favorito == true) 
+        { 
+            _favorito = true;
+            btnEstrella.BackgroundColor = Color.FromRgb(103, 146, 210); 
+            btnEstrella.BorderColor = Color.FromRgb(103, 146, 210);
+        }
+        else 
+        {
+            _favorito = false;
+            btnEstrella.BackgroundColor = Color.FromRgb(215, 215, 215);
+            btnEstrella.BorderColor = Color.FromRgb(235, 235, 235);
+        }
+    }
+    public string ContactoId
 	{
 		set
 		{
@@ -41,33 +68,116 @@ public partial class AgregarEditarContacto : ContentPage
 
     private void btnGuardar_Clicked(object sender, EventArgs e)
     {
-        _contacto.Nombre = entryNombre.Text.Trim();
-        _contacto.Apellido = entryApellido.Text.Trim();
-        _contacto.Apodo = entryApodo.Text.Trim();
-        _contacto.NumeroTelefonico = entryTelefono.Text.Trim();
-        _contacto.Correo = entryCorreo.Text.Trim();
-
-        if (_contacto.Id != -1)
+		try
 		{
-            Funciones.EditarContacto(_contacto.Id, _contacto);
+            ControlarNullsEntrys();
+
+			if (!string.IsNullOrEmpty(entryTelefono.Text.Trim()))
+			{
+                if (long.TryParse(entryTelefono.Text, out long _numeroTelefono))
+                {
+                    AsignarDatos();
+                }
+                else throw new Exception("En el Campo de Numero de Telefono solo se Admiten Numeros");
+			}
+			else throw new Exception("El Campo de Numero de Telefono es Obligatorio");
+
+            if (_contacto.Id != -1)
+            {
+                Funciones.EditarContacto(_contacto.Id, _contacto);
+            }
+            else
+            {
+                if (Funciones.ListaOriginal.Count == 0)
+                {
+                    _contacto.Id = 1;
+                    _contacto.PathImagen = _contacto.EscogerTonoImagen("");
+                }
+                else
+                {
+                    _contacto.Id = Funciones.ListaOriginal.Count + 1;
+                    _contacto.PathImagen = _contacto.EscogerTonoImagen(Funciones.ListaOriginal[Funciones.ListaOriginal.Count - 1].PathImagen);
+                }
+
+                Funciones.ListaOriginal.Add(_contacto);
+                //Funciones.GuardarJsonContactos();
+            }
+
+            Funciones.BtnPresionado = false;
+            Shell.Current.GoToAsync("..");
         }
-		else
+		catch (Exception ex)
 		{
-			if(Funciones.ListaOriginal.Count == 0)
-			{
-				_contacto.Id = 1;
-				_contacto.PathImagen = _contacto.EscogerTonoImagen("");
-            }
-			else
-			{
-                _contacto.Id = Funciones.ListaOriginal.Count + 1;
-				_contacto.PathImagen = _contacto.EscogerTonoImagen(Funciones.ListaOriginal[Funciones.ListaOriginal.Count - 1].PathImagen);
-            }
-			Funciones.ListaOriginal.Add(_contacto);
-			//Funciones.GuardarJsonContactos();
+			DisplayAlert("Error",ex.Message,"Ok");
 		}
+    }
+	private void AsignarDatos()
+	{
+        if (!string.IsNullOrEmpty(entryNombre.Text.Trim()))
+        {
+            _contacto.Nombre = entryNombre.Text.Trim();
+        }
+        if (!string.IsNullOrEmpty(entryApellido.Text.Trim()))
+        {
+            _contacto.Apellido = entryApellido.Text.Trim();
+        }
+        if (!string.IsNullOrEmpty(entryApodo.Text.Trim()))
+        {
+            _contacto.Apodo = entryApodo.Text.Trim();
+        }
+        if (!string.IsNullOrEmpty(entryCorreo.Text.Trim()))
+        {
+            _contacto.Correo = entryCorreo.Text.Trim();
+        }
+        _contacto.NumeroTelefonico = entryTelefono.Text.Trim();
 
-		Funciones.BtnPresionado = false;
-        Shell.Current.GoToAsync("..");
+        if(btnEstrella.IsVisible == true)
+        {
+            if(_favorito == false)
+            {
+                _contacto.Favorito = false;
+            }
+            else if(_favorito == true)
+            {
+                _contacto.Favorito = true;
+            }
+        }
+    }
+    private void ControlarNullsEntrys()
+    {
+        if (entryTelefono.Text == null) entryTelefono.Text = "";
+        if (entryNombre.Text == null) entryNombre.Text = "";
+        if (entryApellido.Text == null) entryApellido.Text = "";
+        if (entryApodo.Text == null) entryApodo.Text = "";
+        if (entryCorreo.Text == null) entryCorreo.Text = "";
+    }
+
+    private async void btnEliminar_Clicked(object sender, EventArgs e)
+    {
+        var Decision = await DisplayAlert("Se Borrara un Contacto", $"Esta Seguro que desea Eliminar \na {_contacto.Nombre} {_contacto.Apellido} de su Lista de Contactos?", "Ok", "Cancelar");
+        if(Decision == true)
+        {
+            int _posicionContactoABorrar = Funciones.ListaOriginal.FindIndex(contacto => contacto.Id == _contacto.Id);
+            Funciones.ListaOriginal.RemoveAt(_posicionContactoABorrar);
+            await Shell.Current.GoToAsync("..");
+        }
+    }
+
+    private void btnEstrella_Clicked(object sender, EventArgs e)
+    {
+        int _posicionContactoABuscar = Funciones.ListaOriginal.FindIndex(contacto => contacto.Id == _contacto.Id);
+
+        if(_contacto.Favorito == true)
+        {
+            _favorito = false;
+            btnEstrella.BackgroundColor = Color.FromRgb(215, 215, 215);
+            btnEstrella.BorderColor = Color.FromRgb(235, 235, 235);
+        }
+        else
+        {
+            _favorito = true;
+            btnEstrella.BackgroundColor = Color.FromRgb(103, 146, 210);
+            btnEstrella.BorderColor = Color.FromRgb(103, 146, 210);
+        }
     }
 }
