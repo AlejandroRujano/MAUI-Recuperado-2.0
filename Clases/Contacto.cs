@@ -27,7 +27,7 @@ namespace Prueba_Maui.Clases
             _nombre = "Sin Nombre";
             _apellido = "Sin Apellido";
             _apodo = "Sin Apodo";
-            _correo = "NoEsUnCorreo@gmail.com";
+            _correo = "Sin Correo";
             _numeroTelefonico = "";
             _pathImagen = "";
             _eliminado = false;
@@ -100,6 +100,7 @@ namespace Prueba_Maui.Clases
         public bool Favorito { get { return _favorito; } set { _favorito = value; } }
         public ICommand Eliminar { private set; get; }
         public ICommand MarcarComoFavorito { private set; get; }
+
         public event PropertyChangedEventHandler PropertyChanged;
         public string EscogerTonoImagen(string UltimoTono)
         {

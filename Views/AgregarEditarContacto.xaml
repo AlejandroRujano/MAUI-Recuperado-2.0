@@ -29,7 +29,6 @@
             </Button>
             <ImageButton    
                 Source="basura.png"
-                Pressed="btnRegresar_Clicked"
                 Grid.Column="1"
                 Padding="3,5,5,5"
                 x:Name="btnEliminar"
@@ -41,7 +40,7 @@
                 WidthRequest="60"
                 HorizontalOptions="End"
                 Margin="10,10,0,0"
-
+                Clicked="btnEliminar_Clicked"
             >
             </ImageButton>
         </Grid>
@@ -106,6 +105,7 @@
                         Placeholder="Nombre"
                         x:Name="entryNombre"
                         TextColor="Black"
+                        FontSize="15"
                             >
                     </Entry>
                 </Border>
@@ -127,6 +127,7 @@
                             Placeholder="Apellido"
                             x:Name="entryApellido"
                             TextColor="Black"
+                            FontSize="15"
                             >
                         </Entry>
                     </Grid>
@@ -149,6 +150,7 @@
                             Placeholder="Apodo"
                             x:Name="entryApodo"
                             TextColor="Black"
+                            FontSize="15"
                             >
                         </Entry>
                     </Grid>
@@ -171,6 +173,7 @@
                         Placeholder="Numero de Telefono"
                         x:Name="entryTelefono"
                         TextColor="Black"
+                        FontSize="15"
                         >
                     </Entry>
                 </Border>
@@ -192,6 +195,7 @@
                         Placeholder="Correo"
                         x:Name="entryCorreo"
                         TextColor="Black"
+                        FontSize="15"
                         >
                     </Entry>
                 </Border>

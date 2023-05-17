@@ -65,7 +65,7 @@ public partial class MainContactos : ContentPage
         {
             _listaDeContactos = new ObservableCollection<Contacto>
                             (from BusquedaC in _listaDeContactos
-                             where BusquedaC.Apellido.StartsWith(Busqueda) || BusquedaC.Nombre.StartsWith(Busqueda) || BusquedaC.Apodo.StartsWith(Busqueda)
+                             where BusquedaC.Apellido.ToUpper().StartsWith(Busqueda) || BusquedaC.Nombre.ToUpper().StartsWith(Busqueda) || BusquedaC.Apodo.ToUpper().StartsWith(Busqueda)
                              select BusquedaC);
 
             if (_listaDeContactos.Count > 0)
