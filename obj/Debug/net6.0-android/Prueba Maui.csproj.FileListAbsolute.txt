@@ -6762,3 +6762,6 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\stamp\_
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\basura.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\eliminar.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\favoritos.png
+C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\basura.png
+C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\eliminar.png
+C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\favoritos.png
