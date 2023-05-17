@@ -32,6 +32,26 @@ namespace Prueba_Maui.Clases
             _pathImagen = "";
             _eliminado = false;
             _favorito = false;
+
+            //Comando para poder Eliminarlo desde el Main
+
+            Eliminar = new Command(
+                execute: () =>
+                {
+                    _eliminado = true;
+                });
+            MarcarComoFavorito = new Command(
+                execute: () =>
+                {
+                    if (_favorito == false)
+                    {
+                        _favorito = true;
+                    }
+                    else if (_favorito == true)
+                    {
+                        _favorito = false;
+                    }
+                });
         }
 
         //Constructor Parametrico
