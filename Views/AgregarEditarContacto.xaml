@@ -7,24 +7,44 @@
              BackgroundColor="White"
              >
     <VerticalStackLayout>
-        <Button
-            Padding="10,-25,14,-10"
-            x:Name="btnRegresar"
-            Clicked="btnRegresar_Clicked"
-            Text="←"
-            FontAttributes="Bold"
-            FontSize="30"
-            BorderColor="DarkSlateBlue" 
-            BorderWidth="3"
-            CornerRadius="40"
-            BackgroundColor="DarkSlateBlue" 
-            TextColor="White"
-            HeightRequest="35"
-            WidthRequest="70"
-            HorizontalOptions="Start"
-            Margin="10,10,0,0"
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*" HeightRequest="60" ColumnSpacing="12" Padding="10" Grid.Row="1">
+            <Button
+                Grid.Column="0"
+                Padding="10,-15,14,0"
+                x:Name="btnRegresar"
+                Clicked="btnRegresar_Clicked"
+                Text="←"
+                FontAttributes="Bold"
+                FontSize="30"
+                BorderColor="DarkSlateBlue" 
+                BorderWidth="3"
+                CornerRadius="40"
+                BackgroundColor="DarkSlateBlue" 
+                TextColor="White"
+                HeightRequest="35"
+                WidthRequest="70"
+                HorizontalOptions="Start"
+                Margin="10,10,0,0"
             >
-        </Button>
+            </Button>
+            <ImageButton    
+                Source="basura.png"
+                Pressed="btnRegresar_Clicked"
+                Grid.Column="1"
+                Padding="3,5,5,5"
+                x:Name="btnEliminar"
+                BorderColor="#f75f5d"
+                BackgroundColor="#f75f5d"
+                BorderWidth="3"
+                CornerRadius="10"
+                HeightRequest="50"
+                WidthRequest="60"
+                HorizontalOptions="End"
+                Margin="10,10,0,0"
+
+            >
+            </ImageButton>
+        </Grid>
         <Image 
             Margin="30,10,30,10"   
             Source="contacto.png"

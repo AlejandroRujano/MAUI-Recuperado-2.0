@@ -1,4 +1,7 @@
-﻿obj\Debug\net6.0-android\resizetizer\r\drawable\contacto.png
+﻿obj\Debug\net6.0-android\resizetizer\r\drawable\basura.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\contacto.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\eliminar.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\favoritos.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\lista10contactos.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\lista11contactos.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\lista12contactos.png

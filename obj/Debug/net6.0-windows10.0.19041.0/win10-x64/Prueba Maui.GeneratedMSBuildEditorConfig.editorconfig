@@ -8,39 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prueba_Maui
-build_property.ProjectDir = C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\
+build_property.ProjectDir = C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\
 
-[C:/Users/Fran/source/repos/MAUI-Recuperado-2.0/App.xaml]
+[C:/Users/luisa/source/repos/MAUI-Recuperado-2.0/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Fran/source/repos/MAUI-Recuperado-2.0/AppShell.xaml]
+[C:/Users/luisa/source/repos/MAUI-Recuperado-2.0/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Fran/source/repos/MAUI-Recuperado-2.0/Resources/Styles/Colors.xaml]
+[C:/Users/luisa/source/repos/MAUI-Recuperado-2.0/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Fran/source/repos/MAUI-Recuperado-2.0/Resources/Styles/Styles.xaml]
+[C:/Users/luisa/source/repos/MAUI-Recuperado-2.0/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Fran/source/repos/MAUI-Recuperado-2.0/Views/AgregarEditarContacto.xaml]
+[C:/Users/luisa/source/repos/MAUI-Recuperado-2.0/Views/AgregarEditarContacto.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.Views.AgregarEditarContacto.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AgregarEditarContacto.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AgregarEditarContacto.xaml
 
-[C:/Users/Fran/source/repos/MAUI-Recuperado-2.0/Views/MainContactos.xaml]
+[C:/Users/luisa/source/repos/MAUI-Recuperado-2.0/Views/MainContactos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.Views.MainContactos.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MainContactos.xaml
