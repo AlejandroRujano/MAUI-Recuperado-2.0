@@ -34,16 +34,17 @@ namespace Prueba_Maui.Clases
             }
             catch { };
 
-            //_listaDeContactosOriginal.Clear();
             //Al primer contacto se le debe pasar como parametro un string vacio
-            _listaDeContactosOriginal.Add(new Contacto("Luis","Galindez","Editor","a@gmail.com","042425836912",_listaDeContactosOriginal.Count+1,""));
+            _listaDeContactosOriginal.Add(new Contacto("Luis","Galindez","Raze","a@gmail.com","042425836912",_listaDeContactosOriginal.Count+1,""));
 
-            /*for(int i=0; i<5 ; i++)
+            for(int i=0; i<3 ; i++)
             {
-                _listaDeContactosOriginal.Add(new Contacto("Chupa", "Paletas", "ApodoXd", "b@gmail.com", 36656, _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
-                _listaDeContactosOriginal.Add(new Contacto("Super", "Man", "SuperMan", "c@gmail.com", 75862, _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
-                _listaDeContactosOriginal.Add(new Contacto("Luis", "Galindez", "Editor", "a@gmail.com", 24456, _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
-            }  */ 
+                _listaDeContactosOriginal.Add(new Contacto("Alejandro", "Ramirez", "Brimstone", "b@gmail.com", "04123456789", _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
+                _listaDeContactosOriginal.Add(new Contacto("Amando", "Puentes", "Mozart", "c@gmail.com", "04165791212", _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
+                _listaDeContactosOriginal.Add(new Contacto("Gipsander", "Urdaneta", "Neon", "d@gmail.com", "04121045698", _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
+                _listaDeContactosOriginal.Add(new Contacto("Francisco", "Ochoa", "Skye", "e@gmail.com", "04249852000", _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
+                _listaDeContactosOriginal.Add(new Contacto("Luis", "Galindez", "Raze", "a@gmail.com", "042425836912", _listaDeContactosOriginal.Count + 1, _listaDeContactosOriginal[_listaDeContactosOriginal.Count - 1].PathImagen));
+            }
         }
 
         //Funciones Normales
@@ -90,6 +91,7 @@ namespace Prueba_Maui.Clases
                 _listaDeContactosOriginal[_posicion].Apodo = contacto.Apodo;
                 _listaDeContactosOriginal[_posicion].Correo = contacto.Correo;
                 _listaDeContactosOriginal[_posicion].NumeroTelefonico = contacto.NumeroTelefonico;
+                _listaDeContactosOriginal[_posicion].Favorito = contacto.Favorito;
 
                 //GuardarJsonContactos();
             }

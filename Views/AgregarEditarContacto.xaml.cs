@@ -6,6 +6,7 @@ namespace Prueba_Maui.Views;
 [QueryProperty(nameof(ContactoId),"Id")]
 public partial class AgregarEditarContacto : ContentPage
 {
+    private bool _favorito = false;
 	private Contacto _contacto = new Contacto();
 	public AgregarEditarContacto()
 	{
@@ -15,8 +16,28 @@ public partial class AgregarEditarContacto : ContentPage
     {
         base.OnAppearing();
 
-		if(_contacto.Id != -1) btnEliminar.IsVisible = true;
-		else btnEliminar.IsVisible = false;
+        if (_contacto.Id != -1)
+        {
+            btnEliminar.IsVisible = true;
+            btnEstrella.IsVisible = true;
+        }
+        else
+        {
+            btnEliminar.IsVisible = false;
+            btnEstrella.IsVisible = false;
+        }
+        if (_contacto.Favorito == true) 
+        { 
+            _favorito = true;
+            btnEstrella.BackgroundColor = Color.FromRgb(103, 146, 210); 
+            btnEstrella.BorderColor = Color.FromRgb(103, 146, 210);
+        }
+        else 
+        {
+            _favorito = false;
+            btnEstrella.BackgroundColor = Color.FromRgb(215, 215, 215);
+            btnEstrella.BorderColor = Color.FromRgb(235, 235, 235);
+        }
     }
     public string ContactoId
 	{
@@ -77,6 +98,7 @@ public partial class AgregarEditarContacto : ContentPage
                     _contacto.Id = Funciones.ListaOriginal.Count + 1;
                     _contacto.PathImagen = _contacto.EscogerTonoImagen(Funciones.ListaOriginal[Funciones.ListaOriginal.Count - 1].PathImagen);
                 }
+
                 Funciones.ListaOriginal.Add(_contacto);
                 //Funciones.GuardarJsonContactos();
             }
@@ -108,6 +130,18 @@ public partial class AgregarEditarContacto : ContentPage
             _contacto.Correo = entryCorreo.Text.Trim();
         }
         _contacto.NumeroTelefonico = entryTelefono.Text.Trim();
+
+        if(btnEstrella.IsVisible == true)
+        {
+            if(_favorito == false)
+            {
+                _contacto.Favorito = false;
+            }
+            else if(_favorito == true)
+            {
+                _contacto.Favorito = true;
+            }
+        }
     }
     private void ControlarNullsEntrys()
     {
@@ -126,6 +160,24 @@ public partial class AgregarEditarContacto : ContentPage
             int _posicionContactoABorrar = Funciones.ListaOriginal.FindIndex(contacto => contacto.Id == _contacto.Id);
             Funciones.ListaOriginal.RemoveAt(_posicionContactoABorrar);
             await Shell.Current.GoToAsync("..");
+        }
+    }
+
+    private void btnEstrella_Clicked(object sender, EventArgs e)
+    {
+        int _posicionContactoABuscar = Funciones.ListaOriginal.FindIndex(contacto => contacto.Id == _contacto.Id);
+
+        if(_contacto.Favorito == true)
+        {
+            _favorito = false;
+            btnEstrella.BackgroundColor = Color.FromRgb(215, 215, 215);
+            btnEstrella.BorderColor = Color.FromRgb(235, 235, 235);
+        }
+        else
+        {
+            _favorito = true;
+            btnEstrella.BackgroundColor = Color.FromRgb(103, 146, 210);
+            btnEstrella.BorderColor = Color.FromRgb(103, 146, 210);
         }
     }
 }

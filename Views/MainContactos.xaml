@@ -46,7 +46,7 @@
                 <Button Grid.Column="0" BackgroundColor="#512BD4" TextColor="White" Text="Organizar Por Nombre" FontSize="13" x:Name="btnNombre" Clicked="btnNombre_Clicked" Padding="2"></Button>
                 <Button Grid.Column="1" BackgroundColor="#512BD4" TextColor="White" Text="Organizar Por Numero" FontSize="13" x:Name="btnNumero" Clicked="btnNumero_Clicked" Padding="2"></Button>
             </Grid>
-            <CollectionView x:Name="CollectionViewContactos" x:DataType="model:Contacto" Grid.Row="2" SelectionMode="Single" SelectionChanged="CollectionViewContactos_SelectionChanged">
+            <CollectionView x:Name="CollectionViewContactos" x:DataType="model:Contacto" Grid.Row="2" SelectionMode="Single" SelectionChanged="CollectionViewContactos_SelectionChanged" Footer="Lista de Contactos">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <SwipeView Threshold="80" x:Name="SwipeListaContactos" SwipeStarted="SwipeListaContactos_SwipeStarted" SwipeEnded="SwipeListaContactos_SwipeEnded">
