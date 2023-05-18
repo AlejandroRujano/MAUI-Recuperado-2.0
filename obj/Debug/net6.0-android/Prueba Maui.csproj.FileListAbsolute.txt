@@ -5815,9 +5815,6 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizet
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\contacto.png
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lista10contactos.png
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lista11contactos.png
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lista12contactos.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lista1contactos.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lista2contactos.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lista3contactos.png
@@ -5830,7 +5827,6 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizet
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\lupa2.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\silueta.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\sobre.png
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\splash.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\telefono.png
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
@@ -6264,8 +6260,6 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\typemaps.armeabi-v7a.s
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\typemaps.armeabi-v7a-shared.inc
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\AndroidManifest.xml
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\AndroidManifest.xml
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\__environment__.txt
@@ -6274,7 +6268,6 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\bin\mono.android.jar
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\static.flag
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\buildid.txt
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\environment.armeabi-v7a.s
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\src\androidx\activity\R.java
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\src\androidx\annotation\experimental\R.java
@@ -6745,11 +6738,6 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\bin\packaged_resources
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\src\com\companyname\prueba_maui\R.java
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\compressed_assemblies.armeabi-v7a.s
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\typemaps.armeabi-v7a.o
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\environment.armeabi-v7a.o
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\compressed_assemblies.armeabi-v7a.o
-C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\bin\classes.dex
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\bin\classes2.dex
 C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -6765,3 +6753,14 @@ C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizet
 C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\basura.png
 C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\eliminar.png
 C:\Users\Fran\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\favoritos.png
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\resizetizer\r\drawable\basura1.png
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.s
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\typemaps.shared.inc
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\environment.arm64-v8a.s
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.s
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.o
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\environment.arm64-v8a.o
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

@@ -1,1 +1,1 @@
-C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\Prueba Maui.csproj;x64
+C:\Users\luisa\source\repos\MAUI-Recuperado-2.0\Prueba Maui.csproj;x64

@@ -92,6 +92,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\basura.png" />
+	  <None Remove="Resources\Images\basura1.png" />
 	  <None Remove="Resources\Images\contacto.png" />
 	  <None Remove="Resources\Images\eliminar.png" />
 	  <None Remove="Resources\Images\favoritos.png" />

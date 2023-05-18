@@ -28,7 +28,7 @@
             >
             </Button>
             <ImageButton    
-                Source="basura.png"
+                Source="basura1.png"
                 Grid.Column="1"
                 Padding="3,5,5,5"
                 x:Name="btnEliminar"
