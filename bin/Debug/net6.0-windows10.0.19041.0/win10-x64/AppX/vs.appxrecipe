@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>87797024-6358-4fa6-a8b7-4fbb5b5cefff</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>36AD362EECFE1675A0FBDA9DADAB3A25C9F97041E77DE24BBF9E969ED746BC26</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>87797024-6358-4fa6-a8b7-4fbb5b5cefff_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>87797024-6358-4fa6-a8b7-4fbb5b5cefff_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-15T20:18:32.592</Modified>
+      <Modified>2023-05-18T02:50:57.511</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-15T20:18:31.903</Modified>
+      <Modified>2023-05-18T02:50:56.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.runtimeconfig.json">
       <PackagePath>Prueba Maui.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-15T20:18:31.531</Modified>
+      <Modified>2023-05-18T02:38:01.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.dll">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.dll">
       <PackagePath>Prueba Maui.dll</PackagePath>
-      <Modified>2023-05-15T20:18:29.264</Modified>
+      <Modified>2023-05-18T02:50:54.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Prueba Maui.exe</PackagePath>
-      <Modified>2023-05-15T20:18:29.294</Modified>
+      <Modified>2023-05-18T02:50:54.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aleja\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.13\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1066,9 +1066,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.deps.json">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.deps.json">
       <PackagePath>Prueba Maui.deps.json</PackagePath>
-      <Modified>2023-05-15T20:18:32.321</Modified>
+      <Modified>2023-05-18T02:50:57.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aleja\.nuget\packages\microsoft.maui.controls.ref.win\6.0.548\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1082,349 +1082,305 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-11-17T18:14:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2023-05-15T04:12:48.701</Modified>
+      <Modified>2023-05-18T02:34:51.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
-      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.497</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
-      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.497</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
-      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.498</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
-      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.499</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
-      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.499</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ssplashSplashScreen.scale-100.png">
-      <PackagePath>ssplashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.500</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ssplashSplashScreen.scale-125.png">
-      <PackagePath>ssplashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.501</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ssplashSplashScreen.scale-150.png">
-      <PackagePath>ssplashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.502</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ssplashSplashScreen.scale-200.png">
-      <PackagePath>ssplashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.503</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ssplashSplashScreen.scale-400.png">
-      <PackagePath>ssplashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.503</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
-      <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-05-15T04:12:56.432</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
-      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2023-05-15T04:12:56.434</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-05-15T04:12:56.436</Modified>
+      <Modified>2023-05-18T02:35:05.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.437</Modified>
+      <Modified>2023-05-18T02:35:05.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.438</Modified>
+      <Modified>2023-05-18T02:35:05.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.439</Modified>
+      <Modified>2023-05-18T02:35:05.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.441</Modified>
+      <Modified>2023-05-18T02:35:05.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.443</Modified>
+      <Modified>2023-05-18T02:35:05.031</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.443</Modified>
+      <Modified>2023-05-18T02:35:05.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.444</Modified>
+      <Modified>2023-05-18T02:35:05.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.445</Modified>
+      <Modified>2023-05-18T02:35:05.036</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.445</Modified>
+      <Modified>2023-05-18T02:35:05.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.446</Modified>
+      <Modified>2023-05-18T02:35:05.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.446</Modified>
+      <Modified>2023-05-18T02:35:05.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.447</Modified>
+      <Modified>2023-05-18T02:35:05.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.447</Modified>
+      <Modified>2023-05-18T02:35:05.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.448</Modified>
+      <Modified>2023-05-18T02:35:05.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.449</Modified>
+      <Modified>2023-05-18T02:35:05.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.449</Modified>
+      <Modified>2023-05-18T02:35:05.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.450</Modified>
+      <Modified>2023-05-18T02:35:05.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.450</Modified>
+      <Modified>2023-05-18T02:35:05.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.451</Modified>
+      <Modified>2023-05-18T02:35:05.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.452</Modified>
+      <Modified>2023-05-18T02:35:05.060</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.452</Modified>
+      <Modified>2023-05-18T02:35:05.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.453</Modified>
+      <Modified>2023-05-18T02:35:05.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.454</Modified>
+      <Modified>2023-05-18T02:35:05.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.454</Modified>
+      <Modified>2023-05-18T02:35:05.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.455</Modified>
+      <Modified>2023-05-18T02:35:05.067</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.456</Modified>
+      <Modified>2023-05-18T02:35:05.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.457</Modified>
+      <Modified>2023-05-18T02:35:05.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.457</Modified>
+      <Modified>2023-05-18T02:35:05.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.458</Modified>
+      <Modified>2023-05-18T02:35:05.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.459</Modified>
+      <Modified>2023-05-18T02:35:05.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.459</Modified>
+      <Modified>2023-05-18T02:35:05.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.460</Modified>
+      <Modified>2023-05-18T02:35:05.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.461</Modified>
+      <Modified>2023-05-18T02:35:05.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.461</Modified>
+      <Modified>2023-05-18T02:35:05.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.462</Modified>
+      <Modified>2023-05-18T02:35:05.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.463</Modified>
+      <Modified>2023-05-18T02:35:05.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.463</Modified>
+      <Modified>2023-05-18T02:35:05.101</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.464</Modified>
+      <Modified>2023-05-18T02:35:05.102</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.464</Modified>
+      <Modified>2023-05-18T02:35:05.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.465</Modified>
+      <Modified>2023-05-18T02:35:05.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.466</Modified>
+      <Modified>2023-05-18T02:35:05.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.466</Modified>
+      <Modified>2023-05-18T02:35:05.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.467</Modified>
+      <Modified>2023-05-18T02:35:05.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.468</Modified>
+      <Modified>2023-05-18T02:35:05.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.469</Modified>
+      <Modified>2023-05-18T02:35:05.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacto.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basura.scale-100.png">
+      <PackagePath>basura.scale-100.png</PackagePath>
+      <Modified>2023-05-18T02:35:05.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basura1.scale-100.png">
+      <PackagePath>basura1.scale-100.png</PackagePath>
+      <Modified>2023-05-18T02:35:05.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacto.scale-100.png">
       <PackagePath>contacto.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.470</Modified>
+      <Modified>2023-05-18T02:35:05.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.471</Modified>
+      <Modified>2023-05-18T02:35:05.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.472</Modified>
+      <Modified>2023-05-18T02:35:05.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.474</Modified>
+      <Modified>2023-05-18T02:35:05.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.475</Modified>
+      <Modified>2023-05-18T02:35:05.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.477</Modified>
+      <Modified>2023-05-18T02:35:05.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista10contactos.scale-100.png">
-      <PackagePath>lista10contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.478</Modified>
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\eliminar.scale-100.png">
+      <PackagePath>eliminar.scale-100.png</PackagePath>
+      <Modified>2023-05-18T02:35:05.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista11contactos.scale-100.png">
-      <PackagePath>lista11contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.478</Modified>
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\favoritos.scale-100.png">
+      <PackagePath>favoritos.scale-100.png</PackagePath>
+      <Modified>2023-05-18T02:35:05.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista12contactos.scale-100.png">
-      <PackagePath>lista12contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.479</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista1contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista1contactos.scale-100.png">
       <PackagePath>lista1contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.480</Modified>
+      <Modified>2023-05-18T02:35:05.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista2contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista2contactos.scale-100.png">
       <PackagePath>lista2contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.481</Modified>
+      <Modified>2023-05-18T02:35:05.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista3contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista3contactos.scale-100.png">
       <PackagePath>lista3contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.482</Modified>
+      <Modified>2023-05-18T02:35:05.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista4contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista4contactos.scale-100.png">
       <PackagePath>lista4contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.482</Modified>
+      <Modified>2023-05-18T02:35:05.146</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista5contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista5contactos.scale-100.png">
       <PackagePath>lista5contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.483</Modified>
+      <Modified>2023-05-18T02:35:05.147</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista6contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista6contactos.scale-100.png">
       <PackagePath>lista6contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.484</Modified>
+      <Modified>2023-05-18T02:35:05.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista7contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista7contactos.scale-100.png">
       <PackagePath>lista7contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.485</Modified>
+      <Modified>2023-05-18T02:35:05.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista8contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista8contactos.scale-100.png">
       <PackagePath>lista8contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.486</Modified>
+      <Modified>2023-05-18T02:35:05.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista9contactos.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista9contactos.scale-100.png">
       <PackagePath>lista9contactos.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.487</Modified>
+      <Modified>2023-05-18T02:35:05.153</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa2.scale-100.png">
       <PackagePath>lupa2.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.488</Modified>
+      <Modified>2023-05-18T02:35:05.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\silueta.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\silueta.scale-100.png">
       <PackagePath>silueta.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.489</Modified>
+      <Modified>2023-05-18T02:35:05.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sobre.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sobre.scale-100.png">
       <PackagePath>sobre.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.490</Modified>
+      <Modified>2023-05-18T02:35:05.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-100.png">
       <PackagePath>splash.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.491</Modified>
+      <Modified>2023-05-18T02:35:05.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-125.png">
       <PackagePath>splash.scale-125.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.492</Modified>
+      <Modified>2023-05-18T02:35:05.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-150.png">
       <PackagePath>splash.scale-150.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.493</Modified>
+      <Modified>2023-05-18T02:35:05.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-200.png">
       <PackagePath>splash.scale-200.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.494</Modified>
+      <Modified>2023-05-18T02:35:05.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\splash.scale-400.png">
       <PackagePath>splash.scale-400.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.495</Modified>
+      <Modified>2023-05-18T02:35:05.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba-Maui-Recuperado - copia\Prueba-Maui-Recuperado\Prueba-Maui-Recuperado\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\telefono.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\MAUI-Recuperado-2.0\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\telefono.scale-100.png">
       <PackagePath>telefono.scale-100.png</PackagePath>
-      <Modified>2023-05-15T04:12:56.496</Modified>
+      <Modified>2023-05-18T02:35:05.167</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
