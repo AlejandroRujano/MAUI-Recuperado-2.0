@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 AdbTarget=-s bib6cmga5h9dssvs
+=======
+AdbTarget=-s 56bfc458
+>>>>>>> fa7bb8fb255fa3a522259396845b200ce64927ff
 AdbOptions=

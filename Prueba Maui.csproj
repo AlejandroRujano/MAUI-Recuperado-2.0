@@ -32,34 +32,43 @@
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-ios|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-maccatalyst|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-maccatalyst|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationTitle>ContactosPR2</ApplicationTitle>
+	  <ApplicationId>com.companyname.prueba_maui</ApplicationId>
 	</PropertyGroup>
 
 	<ItemGroup>
